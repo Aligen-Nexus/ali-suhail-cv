@@ -146,8 +146,21 @@ let customCategories = JSON.parse(localStorage.getItem('aligen_categories')) || 
 
 function getDefaultProjects() {
     return [
-        { id: 'p1', title: 'Ali Suhail CV', category: 'development', icon: 'fa-shopping-cart', description: 'سيفي شخصي ', rating: 5, views: 1250, link: 'https://alisuhail.com', image: '', visible: true },
-]; }
+        { 
+            id: 'p1', 
+            projTitle: 'AliGen Nexus | مركز الابتكار الرقمي', 
+            projCategory: 'development', 
+            projIcon: 'laptop-code', // تم تعديلها لأيقونة برمجية وتذكر أن لوحة التحكم تحذف fa- تلقائياً بناءً على تلميح الإدخال لديك
+            projDescription: 'المنصة البرمجية الرسمية لاستعراض الحلول الذكية وتطبيقات الويب المبتكرة. ندمج تقنيات الذكاء الاصطناعي مع الشيفرة البرمجية النظيفة لتشكيل تجارب رقمية استثنائية تجمع بين دقة الأداء وجمالية التصميم.', 
+            projRating: 5, 
+            projViews: 1250, 
+            projLink: 'https://aligen-nex-fduws5fc.manus.space', 
+            projImage: 'https://i.postimg.cc/qMs2dm3K/mʿrd-aʿmaly.jpg', 
+            projVisible: true 
+        }
+    ]; 
+}
+
        /* { id: 'p2', title: 'نظام روبوت محادثة ذكي', category: 'ai', icon: 'fa-robot', description: 'Chatbot متقدم بالذكاء الاصطناعي لخدمة العملاء على مدار الساعة.', rating: 4.5, views: 980, link: '#', image: '', visible: true },
         { id: 'p3', title: 'هوية بصرية شاملة لمؤسسة', category: 'design', icon: 'fa-palette', description: 'تصميم هوية بصرية كاملة تشمل الشعار والأدوات التسويقية.', rating: 4, views: 756, link: '#', image: '', visible: true },
         { id: 'p4', title: 'نظام محاسبة وإدارة مالي', category: 'development', icon: 'fa-calculator', description: 'نظام محاسبي سحابي متكامل مع تقارير مالية آلية ولوحة تحكم تفاعلية.', rating: 5, views: 1520, link: '#', image: '', visible: true }
