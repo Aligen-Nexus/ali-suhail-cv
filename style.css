@@ -536,4 +536,3 @@ section { padding: var(--section-padding); position: relative; }
 .orders-arrow { color: #f95500; font-size: 18px; transition: .3s; }
 .orders-btn:hover .orders-arrow { transform: translateX(-5px); }
 @media(max-width:500px) { .orders-btn { width: 100%; } }
-
