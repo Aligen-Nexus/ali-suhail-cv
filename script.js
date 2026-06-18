@@ -146,12 +146,13 @@ let customCategories = JSON.parse(localStorage.getItem('aligen_categories')) || 
 
 function getDefaultProjects() {
     return [
-        { id: 'p1', title: 'منصة تجارة إلكترونية متكاملة', category: 'development', icon: 'fa-shopping-cart', description: 'متجر إلكتروني احترافي مع لوحة تحكم متقدمة وإدارة مخزون ذكية.', rating: 5, views: 1250, link: '#', image: '', visible: true },
-        { id: 'p2', title: 'نظام روبوت محادثة ذكي', category: 'ai', icon: 'fa-robot', description: 'Chatbot متقدم بالذكاء الاصطناعي لخدمة العملاء على مدار الساعة.', rating: 4.5, views: 980, link: '#', image: '', visible: true },
+        { id: 'p1', title: 'Ali Suhail CV', category: 'development', icon: 'fa-shopping-cart', description: 'سيفي شخصي ', rating: 5, views: 1250, link: 'https://alisuhail.com', image: '', visible: true },
+]; }
+       /* { id: 'p2', title: 'نظام روبوت محادثة ذكي', category: 'ai', icon: 'fa-robot', description: 'Chatbot متقدم بالذكاء الاصطناعي لخدمة العملاء على مدار الساعة.', rating: 4.5, views: 980, link: '#', image: '', visible: true },
         { id: 'p3', title: 'هوية بصرية شاملة لمؤسسة', category: 'design', icon: 'fa-palette', description: 'تصميم هوية بصرية كاملة تشمل الشعار والأدوات التسويقية.', rating: 4, views: 756, link: '#', image: '', visible: true },
         { id: 'p4', title: 'نظام محاسبة وإدارة مالي', category: 'development', icon: 'fa-calculator', description: 'نظام محاسبي سحابي متكامل مع تقارير مالية آلية ولوحة تحكم تفاعلية.', rating: 5, views: 1520, link: '#', image: '', visible: true }
     ];
-}
+}*/
 
 function getCategoryBadgeClass(cat) { 
     const map = { development: 'badge-dev', design: 'badge-design', ai: 'badge-ai', mobile: 'badge-mobile', marketing: 'badge-marketing', other: 'badge-other' };
